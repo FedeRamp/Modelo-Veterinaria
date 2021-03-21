@@ -33,6 +33,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entidades\Veterinaria.cs" />
     <Compile Include="Entidades\Doctor.cs" />
+    <Compile Include="Entidades\Turno.cs" />
+    <Compile Include="Entidades\Reservador.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entidades\" />

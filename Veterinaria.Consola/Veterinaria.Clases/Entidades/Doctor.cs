@@ -5,15 +5,21 @@ namespace Veterinaria.Clases.Entidades
     {
         private string nombre;
         private string apellido;
-        private string especialidad;
         private int matricula;
+        private int telefonoContacto;
 
-        public Doctor(string nombre, string apellido, string especialidad, int matricula)
+        public Doctor(string nombre, string apellido, int matricula, int telefono)
         {
             this.nombre = nombre;
             this.apellido = apellido;
-            this.especialidad = especialidad;
             this.matricula = matricula;
+            this.telefonoContacto = telefono;
         }
+
+        //Getters & Setters
+        public string Nombre { get => nombre;}
+        public string Apellido { get => apellido;}
+        public int Matricula { get => matricula; set => matricula = value; }
+        public int TelefonoContacto { get => telefonoContacto; set => telefonoContacto = value; }
     }
 }

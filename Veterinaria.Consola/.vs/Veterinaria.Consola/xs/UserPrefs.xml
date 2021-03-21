@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{5CEBBBD8-A926-46E7-A6DE-4F8539C0F3D6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Veterinaria.Clases/Entidades/Doctor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Veterinaria.Clases/Entidades/Reservador.cs">
     <Files>
-      <File FileName="Veterinaria.Consola/Program.cs" Line="1" Column="1" />
-      <File FileName="Veterinaria.Clases/MyClass.cs" Line="10" Column="1" />
-      <File FileName="Veterinaria.Clases/Entidades/Doctor.cs" Line="6" Column="9" />
+      <File FileName="Veterinaria.Consola/Program.cs" Line="16" Column="13" />
+      <File FileName="Veterinaria.Clases/MyClass.cs" Line="13" Column="60" />
+      <File FileName="Veterinaria.Clases/Entidades/Doctor.cs" Line="11" Column="67" />
+      <File FileName="Veterinaria.Clases/Entidades/Turno.cs" Line="16" Column="26" />
+      <File FileName="Veterinaria.Clases/Entidades/Reservador.cs" Line="10" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +13,7 @@
           <Node name="Veterinaria.Consola" expanded="True">
             <Node name="Veterinaria.Clases" expanded="True">
               <Node name="Entidades" expanded="True">
-                <Node name="Doctor.cs" selected="True" />
+                <Node name="Reservador.cs" selected="True" />
               </Node>
             </Node>
             <Node name="Veterinaria.Consola" expanded="True" />
@@ -21,9 +23,8 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Veterinaria.Consola FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Veterinaria.Consola PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
-  <MonoDevelop.Ide.ItemProperties.Veterinaria.Clases FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
