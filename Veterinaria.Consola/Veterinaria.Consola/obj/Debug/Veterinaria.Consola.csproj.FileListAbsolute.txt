@@ -1,0 +1,9 @@
+/Users/fede/Documents/GitHub/Modelo-Veterinaria/Veterinaria.Consola/Veterinaria.Consola/bin/Debug/Veterinaria.Consola.exe
+/Users/fede/Documents/GitHub/Modelo-Veterinaria/Veterinaria.Consola/Veterinaria.Consola/bin/Debug/Veterinaria.Consola.pdb
+/Users/fede/Documents/GitHub/Modelo-Veterinaria/Veterinaria.Consola/Veterinaria.Consola/bin/Debug/Veterinaria.Clases.dll
+/Users/fede/Documents/GitHub/Modelo-Veterinaria/Veterinaria.Consola/Veterinaria.Consola/bin/Debug/Veterinaria.Clases.pdb
+/Users/fede/Documents/GitHub/Modelo-Veterinaria/Veterinaria.Consola/Veterinaria.Consola/obj/Debug/Veterinaria.Consola.csprojAssemblyReference.cache
+/Users/fede/Documents/GitHub/Modelo-Veterinaria/Veterinaria.Consola/Veterinaria.Consola/obj/Debug/Veterinaria.Consola.csproj.CoreCompileInputs.cache
+/Users/fede/Documents/GitHub/Modelo-Veterinaria/Veterinaria.Consola/Veterinaria.Consola/obj/Debug/Veterinaria.Consola.csproj.CopyComplete
+/Users/fede/Documents/GitHub/Modelo-Veterinaria/Veterinaria.Consola/Veterinaria.Consola/obj/Debug/Veterinaria.Consola.exe
+/Users/fede/Documents/GitHub/Modelo-Veterinaria/Veterinaria.Consola/Veterinaria.Consola/obj/Debug/Veterinaria.Consola.pdb

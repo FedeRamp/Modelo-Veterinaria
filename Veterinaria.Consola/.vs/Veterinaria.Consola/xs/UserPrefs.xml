@@ -1,12 +1,19 @@
 ﻿<Properties StartupConfiguration="{5CEBBBD8-A926-46E7-A6DE-4F8539C0F3D6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Veterinaria.Consola/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Veterinaria.Clases/Entidades/Doctor.cs">
     <Files>
       <File FileName="Veterinaria.Consola/Program.cs" Line="1" Column="1" />
+      <File FileName="Veterinaria.Clases/MyClass.cs" Line="10" Column="1" />
+      <File FileName="Veterinaria.Clases/Entidades/Doctor.cs" Line="6" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Veterinaria.Consola" expanded="True" selected="True">
+          <Node name="Veterinaria.Consola" expanded="True">
+            <Node name="Veterinaria.Clases" expanded="True">
+              <Node name="Entidades" expanded="True">
+                <Node name="Doctor.cs" selected="True" />
+              </Node>
+            </Node>
             <Node name="Veterinaria.Consola" expanded="True" />
           </Node>
         </State>
@@ -16,6 +23,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Veterinaria.Consola FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.ItemProperties.Veterinaria.Clases FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
