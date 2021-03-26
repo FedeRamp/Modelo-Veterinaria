@@ -15,6 +15,7 @@ namespace Veterinaria.Clases.Entidades
         {
             Turno turno = new Turno(doctor, hora, veterinaria, ultimoIndex);
             turnos.Add(turno);
+            ultimoIndex++;
         }
     }
 }
