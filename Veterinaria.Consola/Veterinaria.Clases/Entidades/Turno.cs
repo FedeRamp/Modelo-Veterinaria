@@ -5,15 +5,14 @@ namespace Veterinaria.Clases.Entidades
     {
         private Doctor doctorACargo;
         private int horaTurno;
-        private Veterinaria veterinaria;
-        private int id;
 
-        public Turno(Doctor doctorACargo, int horaTurno, Veterinaria veterinaria, int id)
+        public Turno(Doctor doctorACargo, int horaTurno)
         {
             this.doctorACargo = doctorACargo;
             this.horaTurno = horaTurno;
-            this.veterinaria = veterinaria;
-            this.id = id;
         }
+
+        public Doctor DoctorACargo { get => doctorACargo; set => doctorACargo = value; }
+        public int Hora { get => horaTurno; }
     }
 }

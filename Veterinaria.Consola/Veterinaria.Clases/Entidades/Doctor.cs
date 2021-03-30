@@ -17,9 +17,9 @@ namespace Veterinaria.Clases.Entidades
         }
 
         //Getters & Setters
-        public string Nombre { get => nombre;}
-        public string Apellido { get => apellido;}
-        public int Matricula { get => matricula; set => matricula = value; }
+        public string Nombre { get => nombre; }
+        public string Apellido { get => apellido; }
+        public int Matricula { get => matricula; }
         public int TelefonoContacto { get => telefonoContacto; set => telefonoContacto = value; }
     }
 }
