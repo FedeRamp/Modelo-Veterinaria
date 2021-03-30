@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{5CEBBBD8-A926-46E7-A6DE-4F8539C0F3D6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Veterinaria.Clases/Entidades/Reservador.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Veterinaria.Clases/Entidades/Veterinaria.cs">
     <Files>
       <File FileName="Veterinaria.Consola/Program.cs" Line="16" Column="13" />
-      <File FileName="Veterinaria.Clases/MyClass.cs" Line="13" Column="60" />
-      <File FileName="Veterinaria.Clases/Entidades/Doctor.cs" Line="11" Column="67" />
-      <File FileName="Veterinaria.Clases/Entidades/Turno.cs" Line="16" Column="26" />
-      <File FileName="Veterinaria.Clases/Entidades/Reservador.cs" Line="10" Column="28" />
+      <File FileName="Veterinaria.Clases/Entidades/Doctor.cs" Line="20" Column="47" />
+      <File FileName="Veterinaria.Clases/Entidades/Veterinaria.cs" Line="51" Column="64" />
+      <File FileName="Veterinaria.Clases/Entidades/Turno.cs" Line="7" Column="31" />
+      <File FileName="Veterinaria.Clases/Entidades/Validador.cs" Line="17" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +13,7 @@
           <Node name="Veterinaria.Consola" expanded="True">
             <Node name="Veterinaria.Clases" expanded="True">
               <Node name="Entidades" expanded="True">
-                <Node name="Reservador.cs" selected="True" />
+                <Node name="Veterinaria.cs" selected="True" />
               </Node>
             </Node>
             <Node name="Veterinaria.Consola" expanded="True" />

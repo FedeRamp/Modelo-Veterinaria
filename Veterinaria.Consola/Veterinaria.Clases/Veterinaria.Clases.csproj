@@ -34,7 +34,7 @@
     <Compile Include="Entidades\Veterinaria.cs" />
     <Compile Include="Entidades\Doctor.cs" />
     <Compile Include="Entidades\Turno.cs" />
-    <Compile Include="Entidades\Reservador.cs" />
+    <Compile Include="Entidades\Validador.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entidades\" />
