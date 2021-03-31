@@ -1,23 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
+using Veterinaria.Clases.Exceptions;
 
 namespace Veterinaria.Clases.Entidades
 {
     public class Validador
     {
 
-        public static bool validarTurno(Hospital veterinaria, Turno turnoDado)
+        public static void validarTurno(Hospital veterinaria, Turno turnoDado)
         {
             
-            foreach(Turno turno in veterinaria.TurnosDisponibles)
+            foreach(Turno turno in veterinaria.Turnos)
             {
                 if(turno.Hora == turnoDado.Hora &&
                     turno.DoctorACargo == turnoDado.DoctorACargo)
                 {
-                    return false;
+                    throw new TurnoExisteException();
                 }
             }
-            return true;
         }
 
         public static string pedirString(string mensaje)
@@ -37,17 +37,23 @@ namespace Veterinaria.Clases.Entidades
         {
             string entrada = "";
             int resultado;
-            do
+            while (entrada == "")
             {
-                Console.Write(mensaje);
-                entrada = Console.ReadLine();
-                if (!int.TryParse(entrada, out resultado))
+                try
                 {
-                    Console.WriteLine("No se ingreso un numero");
+                    Console.WriteLine(mensaje);
+                    resultado = int.Parse(Console.ReadLine());
+                    return resultado;
+
+                }
+                catch(FormatException fe)
+                {
+                    Console.WriteLine("Formato incorrecto");
                     entrada = "";
                 }
-            } while (entrada == "");
-            return resultado;
+            }
+            return 0;
+            
         }
     }
 }

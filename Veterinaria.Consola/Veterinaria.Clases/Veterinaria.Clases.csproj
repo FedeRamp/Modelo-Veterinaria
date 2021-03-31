@@ -35,9 +35,15 @@
     <Compile Include="Entidades\Doctor.cs" />
     <Compile Include="Entidades\Turno.cs" />
     <Compile Include="Entidades\Validador.cs" />
+    <Compile Include="Exceptions\TurnoExisteException.cs" />
+    <Compile Include="Entidades\Menu.cs" />
+    <Compile Include="Exceptions\ArrayVacioException.cs" />
+    <Compile Include="Entidades\TestSubjects\Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entidades\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Entidades\TestSubjects\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

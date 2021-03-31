@@ -14,5 +14,12 @@ namespace Veterinaria.Clases.Entidades
 
         public Doctor DoctorACargo { get => doctorACargo; set => doctorACargo = value; }
         public int Hora { get => horaTurno; }
+        public string Print
+        {
+            get
+            {
+                return horaTurno + "hs, con " + doctorACargo;
+            }
+        }
     }
 }
