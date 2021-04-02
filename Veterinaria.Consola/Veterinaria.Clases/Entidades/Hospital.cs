@@ -45,7 +45,7 @@ namespace Veterinaria.Clases.Entidades
                 string resultado = "";
                 foreach (Turno turno in turnosReservados)
                 {
-                    resultado += turno.Print + "\n";
+                    resultado += turno.Print + "\nen " + this.ToString()  ;
                 }
                 return resultado;
             }
