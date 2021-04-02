@@ -45,7 +45,7 @@ namespace Veterinaria.Clases.Entidades
                 string resultado = "";
                 foreach (Turno turno in turnosReservados)
                 {
-                    resultado += "\nTurno con: " + turno.DoctorACargo + " a la(s) " + turno.Hora;
+                    resultado += turno.Print + "\n";
                 }
                 return resultado;
             }
@@ -67,11 +67,12 @@ namespace Veterinaria.Clases.Entidades
         public void reservarTurno(int index)
         {  //Movemos el turno elegido de los disponibles hacia los reservados
             Turno turnoElegido = turnosDisponibles[index];
+            Console.WriteLine("Reservado " + turnoElegido.Print);
             turnosReservados.Add(turnoElegido);
             turnosDisponibles.Remove(turnoElegido);
         }
 
-        public string toString()
+        public override string ToString()
         { //Method para imprimir la info de este hospital
             return this.nombre + ", " + this.direccion;
         }

@@ -44,7 +44,7 @@ namespace Veterinaria.Clases.Entidades
             {
                 int opcionElegida = Validador.pedirInt(print());
                 string opcion = opciones[opcionElegida - 1]; //Esto me va a tirar el error 
-                return opcionElegida;
+                return opcionElegida-1;
             }
             catch(IndexOutOfRangeException iore)
             {

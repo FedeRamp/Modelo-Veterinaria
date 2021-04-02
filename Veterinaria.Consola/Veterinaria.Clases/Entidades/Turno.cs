@@ -18,7 +18,7 @@ namespace Veterinaria.Clases.Entidades
         {
             get
             {
-                return horaTurno + "hs, con " + doctorACargo;
+                return "Turno a la(s) "+ horaTurno + "hs, con " + doctorACargo.ToString() ;
             }
         }
     }

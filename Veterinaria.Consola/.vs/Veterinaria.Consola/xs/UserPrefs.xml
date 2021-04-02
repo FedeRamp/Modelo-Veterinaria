@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{5CEBBBD8-A926-46E7-A6DE-4F8539C0F3D6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Veterinaria.Clases/Entidades/Menu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Veterinaria.Consola/Program.cs">
     <Files>
-      <File FileName="Veterinaria.Consola/Program.cs" Line="51" Column="26" />
       <File FileName="Veterinaria.Clases/Entidades/Doctor.cs" Line="1" Column="1" />
-      <File FileName="Veterinaria.Clases/Entidades/Turno.cs" Line="12" Column="40" />
-      <File FileName="Veterinaria.Clases/Entidades/Validador.cs" Line="46" Column="38" />
-      <File FileName="Veterinaria.Clases/Entidades/Hospital.cs" Line="29" Column="43" />
-      <File FileName="Veterinaria.Clases/Entidades/Menu.cs" Line="62" Column="46" />
-      <File FileName="Veterinaria.Clases/Entidades/TestSubjects/Test.cs" Line="50" Column="39" />
+      <File FileName="Veterinaria.Clases/Entidades/Turno.cs" Line="10" Column="10" />
+      <File FileName="Veterinaria.Clases/Entidades/Validador.cs" />
+      <File FileName="Veterinaria.Clases/Entidades/Hospital.cs" />
+      <File FileName="Veterinaria.Clases/Entidades/Menu.cs" />
+      <File FileName="Veterinaria.Clases/Entidades/TestSubjects/Test.cs" Line="76" Column="42" />
+      <File FileName="Veterinaria.Consola/Program.cs" Line="57" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,11 +16,12 @@
             <Node name="Veterinaria.Clases" expanded="True">
               <Node name="Entidades" expanded="True">
                 <Node name="TestSubjects" expanded="True" />
-                <Node name="Menu.cs" selected="True" />
               </Node>
               <Node name="Exceptions" expanded="True" />
             </Node>
-            <Node name="Veterinaria.Consola" expanded="True" />
+            <Node name="Veterinaria.Consola" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

@@ -31,7 +31,7 @@ namespace Veterinaria.Consola
                 {
 
 
-                    case 1:
+                    case 0:
                         bool vacio = true;
                         foreach (Hospital hospital in hospitales)
                         {
@@ -44,7 +44,7 @@ namespace Veterinaria.Consola
                         if (vacio) Console.WriteLine("No hay turnos reservados aun");
                         break;
 
-                    case 2:
+                    case 1:
                         List<string> especialidades = new List<string>();
                         string titEspecialidad = "Que especialidad busca?";
                         foreach (Hospital hospital in hospitales)
@@ -65,7 +65,7 @@ namespace Veterinaria.Consola
                         string[] descHospitales = new string[hospDisponibles.Count];
                         for (int i = 0; i < hospDisponibles.Count; i++)
                         {
-                            descHospitales[i] = descHospitales[i].ToString();
+                            descHospitales[i] = hospDisponibles[i].ToString();
                         }
                         Menu menuHospitales = new Menu(titHospital, descHospitales);
                         Hospital hospitalElegido = hospDisponibles[menuHospitales.elegir()];

@@ -21,5 +21,9 @@ namespace Veterinaria.Clases.Entidades
         public string Apellido { get => apellido; }
         public int Matricula { get => matricula; }
         public int TelefonoContacto { get => telefonoContacto; set => telefonoContacto = value; }
+        public override string ToString()
+        {
+            return this.nombre + " " + this.apellido;
+        }
     }
 }
